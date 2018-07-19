@@ -3,7 +3,7 @@ const LaunchRequestHandler = {
     return handlerInput.requestEnvelope.request.type === 'LaunchRequest'
   },
   handle (handlerInput) {
-    const speechText = 'Requête lancement : bonjour Julie'
+    const speechText = 'Service test lancé'
 
     return handlerInput.responseBuilder
       .speak(speechText)
